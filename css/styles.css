@@ -220,10 +220,14 @@ input.button:hover {
 }
 
 /******** General ********/
-#top-intro{
-    padding-top: 100px;
+
+#membership{
+    height: 100vh;
 }
 
+.top-intro{
+    height: 100vh;
+}
 #slack{
     border-width: 1px;
 }
