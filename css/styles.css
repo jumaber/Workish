@@ -163,7 +163,6 @@ p{
 .newsletter{ 
     background-color: #fff;
     border-color: #121212;
-    padding: 25px;
     border-radius: 5px;
     box-shadow: 10px 10px 0px 0px rgb(136 168 236 / 0%);
     transition: transform 300ms ease 0ms,
@@ -181,20 +180,19 @@ div.mc-field-group input, div.mc-field-group { /*input field mailchimp*/
     font-family: Arial, Helvetica, sans-serif;
 }
 
-input.button{ /* Mailchimp Subcribe Button */
+input.button {
+    /* Mailchimp Subcribe Button */
     color: #fff;
     background-color: #3579F6;
-    border-color: #3579F6;
+    border-color: ;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.25rem;
     font-weight: 700;
-    padding: .3em 1em;
     border-radius: 4px;
-    width:200px;
-
+    width: 100%;
 }
 
-input.button:hover {
+input.button:hover{
     /* Mailchimp Subcribe Button */
     color: #3579F6 !important;
     font-family: Arial, Helvetica, sans-serif;
@@ -270,7 +268,6 @@ input.button:hover {
 
  .community{
     background-color: #FCFF6C;
-    padding: 20px;
     width: 100%;
  }
 
@@ -322,7 +319,7 @@ Small devices // Bigger than iPad (575px and smaller)
 @media only screen and (min-width: 575px) {
 
     #events {
-        margin-top: 100px;
+        margin-top: 150px;
         margin-bottom: 100px;
     }
 
@@ -416,7 +413,7 @@ Big devices // Bigger than iPad (1024px and smaller)
     .top-intro{
         margin-top: 100px;
     }
-
+    
     #top-intro h2 {
         font-size: 50px;
     }
