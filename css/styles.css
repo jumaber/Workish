@@ -324,10 +324,12 @@ Medium devices // Bigger than iPad (768px and smaller)
 ================================= */
 @media only screen and (min-width: 768px) {
 
-
-    #events, #slack, #about, #contact, #membership{
-        margin-top: 100px;
+    #events {
         margin-bottom: 100px;
+    }
+  
+    #slack, #about, #contact{
+        margin-top: 100px;
     }
     #footer{
         margin-top: 100px;
