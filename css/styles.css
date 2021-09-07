@@ -127,8 +127,11 @@ p{
 /* 
 .btn-primary:active, .btn-primary:focus {
     background-color: #3579F6 !important;
-    color: white !important; */
-}
+    color: white !important; 
+    }
+
+    */
+
 /* 
 .btn-secondary{
     font-size: 1rem;
@@ -153,7 +156,7 @@ p{
 /******** Intro + Newsletter ********/
 
 .top-image{
-    width: 90%;
+    max-width:100%;
     height: auto;
 }
 
@@ -306,7 +309,7 @@ input.button:hover {
 /********** Impressum Page ********/
 .impressum {
     margin-top: 10%;
-    margin bottom: 50px;
+    margin-bottom: 50px;
 }
 
 /********** Media Queries **********/
