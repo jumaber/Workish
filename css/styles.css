@@ -81,9 +81,10 @@ p{
 .link{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
+    text-align: right;
     color:#121212;
     background-color: #FCFF6C;
-    font-size: 1.15rem;
+    font-size: 1rem;
 }
 
 .link:hover{
@@ -91,7 +92,13 @@ p{
     background-color: white;
 }
 
+.sidelink{
+    text-align: right;
+}
 
+.marked{
+    background-color: #FCFF6C;
+}
 /******** Buttons ********/
 
 .btn{
