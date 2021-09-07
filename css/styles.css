@@ -413,6 +413,10 @@ Big devices // Bigger than iPad (1024px and smaller)
 ================================= */
 @media only screen and (min-width: 1024px) {
 
+    .top-intro{
+        margin-top: 100px;
+    }
+    
     #top-intro h2 {
         font-size: 50px;
     }
