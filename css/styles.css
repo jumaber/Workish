@@ -152,6 +152,10 @@ p{
 
 /******** Intro + Newsletter ********/
 
+.top-image{
+    width: 80%;
+    height: auto;
+}
 
 .newsletter{ 
     background-color: #fff;
