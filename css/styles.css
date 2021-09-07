@@ -222,25 +222,22 @@ input.button:hover {
 }
 
 #slack{
-    border-radius: none;
     border-width: 1px;
 }
 
 #contact{  
-    border-radius: none;
     border-width: 1px;
     background-color: white;
 }
 
 #about{
-    border-radius: none;
     border-width: 1px;
     background-color: white;
 }
 
-img .card-img-top{
+/* img .card-img-top{
     border-radius: none;
-}
+} */
 
 /********  Events *******/
 
