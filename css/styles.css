@@ -59,7 +59,7 @@ a.top-nav:hover{
 
 
 a.top-nav:active{
-    color: #55DF63;
+    color: #3579F6;
     text-decoration: underline;
 }
 
@@ -127,7 +127,7 @@ p{
 
 .btn-primary:active, .btn-primary:focus {
     background-color: #3579F6 !important;
-    color: #fffff !important;
+    color: white !important;
 }
 /* 
 .btn-secondary{
@@ -220,7 +220,6 @@ input.button:hover {
 #slack{
     border-radius: none;
     border-width: 1px;
-    background-color: white;
 }
 
 #contact{  
@@ -259,6 +258,15 @@ img .card-img-top{
 
  #team .btn-primary{
     font-size: 0.9rem;
+ }
+
+
+ /******** Community *******/
+
+ .community{
+    background-color: #FCFF6C;
+    padding: 20px;
+    width: 100%;
  }
 
 
