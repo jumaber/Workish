@@ -322,7 +322,7 @@ Small devices // Bigger than iPad (575px and smaller)
 @media only screen and (min-width: 575px) {
 
     #events {
-        margin-top: 150px;
+        margin-top: 100px;
         margin-bottom: 100px;
     }
 
@@ -416,7 +416,7 @@ Big devices // Bigger than iPad (1024px and smaller)
     .top-intro{
         margin-top: 100px;
     }
-    
+
     #top-intro h2 {
         font-size: 50px;
     }
