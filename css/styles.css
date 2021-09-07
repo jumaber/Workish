@@ -124,10 +124,10 @@ p{
     border 300ms ease 0ms,
     box-shadow 300ms ease 0ms;
 }
-
+/* 
 .btn-primary:active, .btn-primary:focus {
     background-color: #3579F6 !important;
-    color: white !important;
+    color: white !important; */
 }
 /* 
 .btn-secondary{
@@ -153,7 +153,7 @@ p{
 /******** Intro + Newsletter ********/
 
 .top-image{
-    width: 80%;
+    width: 90%;
     height: auto;
 }
 
@@ -300,6 +300,13 @@ input.button:hover {
 
 .imprint h6:active {
     color: #333;
+}
+
+
+/********** Impressum Page ********/
+.impressum {
+    margin-top: 10%;
+    margin bottom: 50px;
 }
 
 /********** Media Queries **********/
