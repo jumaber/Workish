@@ -225,9 +225,6 @@ input.button:hover {
     height: 100vh;
 }
 
-.top-intro{
-    height: 100vh;
-}
 #slack{
     border-width: 1px;
 }
@@ -320,9 +317,83 @@ input.button:hover {
 
 
 /* ==============================
+Small devices // Bigger than iPad (575px and smaller)
+================================= */
+@media only screen and (min-width: 575px) {
+
+    #events {
+        margin-top: 150px;
+        margin-bottom: 100px;
+    }
+
+    #slack,
+    #about,
+    #contact {
+        margin-top: 100px;
+    }
+
+    #footer {
+        margin-top: 100px;
+    }
+
+    /* #team .card {
+        min-height: 450px;
+    }
+
+    .intro {
+        max-width: 430px;
+    } */
+
+}
+
+/* ==============================
+Small devices // Bigger than iPad (575px and smaller)
+================================= */
+@media only screen and (max-width: 575px) {
+    #membership {
+        height: 100vh;
+    }
+
+ 
+    .intro {
+        margin-top: -100px;
+    }
+
+    #events {
+        margin-bottom: 100px;
+    }
+
+    #slack,
+    #about,
+    #contact {
+        margin-top: 100px;
+        width: 100%;
+    }
+
+    #footer {
+        margin-top: 100px;
+    }
+
+    .top-image{
+        display: none;
+    }
+}
+        /* ===
+
+/* ==============================
 Medium devices // Bigger than iPad (768px and smaller)
 ================================= */
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 767px) {
+    #membership{
+        height: 100vh;
+    }
+
+
+    
+    .intro{
+        margin-top: -100px;
+    }
+    
 
     #events {
         margin-bottom: 100px;
@@ -330,20 +401,13 @@ Medium devices // Bigger than iPad (768px and smaller)
   
     #slack, #about, #contact{
         margin-top: 100px;
+        width: 100%;;
     }
     #footer{
         margin-top: 100px;
     }
-
-    #team .card{
-        min-height: 450px;
-    }
-
-    .intro {
-        max-width: 430px;
-    } 
-   
 }
+
 /* ==============================
 Big devices // Bigger than iPad (1024px and smaller)
 ================================= */
@@ -386,4 +450,4 @@ Large devices // Bigger than Laptop (1440px and smaller)
     .intro {
         max-width: 650px;
     }
-    }
+}
